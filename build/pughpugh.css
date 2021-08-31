@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "pughpugh";
+    src: url("./pughpugh.eot?4c085805f9b46a93f814fb70996b1642#iefix") format("embedded-opentype"),
+url("./pughpugh.woff2?4c085805f9b46a93f814fb70996b1642") format("woff2"),
+url("./pughpugh.woff?4c085805f9b46a93f814fb70996b1642") format("woff");
+}
+
+i[class^="pp-"]:before, i[class*=" pp-"]:before {
+    font-family: pughpugh !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pp-email:before {
+    content: "\f101";
+}

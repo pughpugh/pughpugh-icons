@@ -1,0 +1,26 @@
+{
+  "name": "pughpugh-icons",
+  "version": "1.0.0",
+  "description": "Common icon fonts for pughpugh projects",
+  "dependencies": {
+    "fantasticon": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pughpugh/pughpugh-icons.git"
+  },
+  "keywords": [
+    "Icon",
+    "Font"
+  ],
+  "author": "Hugh Gallagher <hugh@hcgallagher.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pughpugh/pughpugh-icons/issues"
+  },
+  "homepage": "https://github.com/pughpugh/pughpugh-icons#readme"
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "{{ fontName }}";
+    src: {{{ src }}};
+}
+
+{{# if baseSelector }}
+{{ baseSelector }}:before {
+{{ else }}
+{{ baseTag }}[class^="{{prefix}}"]:before, {{ baseTag }}[class*=" {{prefix}}"]:before {
+{{/ if }}
+    font-family: {{ fontName }} !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+{{# each codepoints }}
+{{# if ../baseSelector }}
+{{ ../baseSelector }}.{{ ../prefix }}-{{ @key }}:before {
+{{ else }}
+{{ baseTag }}.{{ ../prefix }}-{{ @key }}:before {
+{{/ if }}
+    content: "\\{{ this }}";
+}
+{{/ each }}
