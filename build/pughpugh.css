@@ -1,8 +1,8 @@
 @font-face {
     font-family: "pughpugh";
-    src: url("./pughpugh.eot?4c085805f9b46a93f814fb70996b1642#iefix") format("embedded-opentype"),
-url("./pughpugh.woff2?4c085805f9b46a93f814fb70996b1642") format("woff2"),
-url("./pughpugh.woff?4c085805f9b46a93f814fb70996b1642") format("woff");
+    src: url("./pughpugh.eot?ff8474c0135d1e15181b2f149c581636#iefix") format("embedded-opentype"),
+url("./pughpugh.woff2?ff8474c0135d1e15181b2f149c581636") format("woff2"),
+url("./pughpugh.woff?ff8474c0135d1e15181b2f149c581636") format("woff");
 }
 
 i[class^="pp-"]:before, i[class*=" pp-"]:before {
